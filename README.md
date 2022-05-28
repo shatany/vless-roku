@@ -1,4 +1,4 @@
-# xray Heroku
+# xray roku
 
 ## 警告⚠：此技术仅限用于个人查看学术或科研娱乐使用！！！若用于其他违法目的，后果自负！！！
 
@@ -8,19 +8,12 @@
 
 ## 一键部署到Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/HXHGTS/vless-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/shatany/vless-roku)
 
 ## ENV 设定
 
 ### UUID生成方法
 
-Windows下用cmd执行:
-
-`powershell [guid]::NewGuid() | find /v "Guid" | find /v "--" | find "-"`
-
-Linux下用bash执行:
-
-`uuidgen`
 
 在线生成UUID(推荐):
 
